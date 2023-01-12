@@ -2,7 +2,7 @@
 
 ## edwardlin-zlt.github.io
 
-页面展示<http://edwardlin-zlt.github.io>
+致谢：<http://edwardlin-zlt.github.io>
 
 ##### commit格式：
 
