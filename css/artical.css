@@ -22,7 +22,7 @@ html, body {
   left: 0;
   right: 0;
   height: 60px;
-  background-color: rgb(247, 226, 226);
+  background-color: rgb(59, 140, 207);
 }
 
 .topsidebar-left {
@@ -60,7 +60,7 @@ html, body {
 
 
 .rightImg {
-  background: url("../images/avatar.jpg");
+  background: url("../images/avatar.png");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -101,7 +101,7 @@ html, body {
 }
 
 .content>h1>span {
-  color: pink;
+  color: rgb(107, 164, 250);
   font-size: 14px;
   font-weight: normal;
 }
