@@ -303,7 +303,7 @@ html, body {
 /* Stories */
 .stories {
   font-family: sans-serif;
-  padding: 2% 40px 20px 20px;
+  padding: 12% 40px 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
