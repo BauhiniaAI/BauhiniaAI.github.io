@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* topsidebar */
+.topsidebar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgb(59, 140, 207);
+}
+
+.topsidebar-left {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+  height: 10%;
+}
+
+.topsidebar-center {
+  position: absolute;
+  left: 10%;
+  top: 0px;
+  width: 80%;
+  height: 10%;
+}
+
+.topsidebar-right {
+  position: absolute;
+  left: 90%;
+  top: 0px;
+  width: 10%;
+  height: 10%;
+}
+
+.topsidebar-icon {
+  background-image: url("../images/icon.png");
+  position: relative;
+  top: 7px;
+  left: 25%;
+  width: 48px;
+  height: 48px;
+}
+
+
+.rightImg {
+  background: url("../images/avatar.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 7px;
+  left: 20%;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.topsidebar-title {
+  position: relative;
+  top: 22px;
+}
+
+/* context */
+.down {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.context {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  padding: 20px 0 50px 0 ;
+}
+
+.content>h1 {
+  line-height: 1.5rem;
+  margin-top: inherit;
+}
+
+.content>p {
+  line-height: 2em;
+}
+
+.content>h1>span {
+  color: rgb(107, 164, 250);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.content-video>video {
+  width: 100%;
+  object-fit: fill;
+}
+.content-video>p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: inherit;
+}
+
